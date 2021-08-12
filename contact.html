@@ -47,7 +47,7 @@
               <label for=message>message</label>
               <textarea id="message" name="message" placeholder="Leave a message" style="height:170px"></textarea>
             <a href="http://noblesworld.netlify.app">
-              <input type="submit" value="Submit">
+              <button onclick="myfunction()" style="background-color: green;">Submit</button>
             </a>
              
             
@@ -58,4 +58,9 @@
       
       
 </body>
+<script>
+  function myfunction() {
+    alert("Submitted sucessfully");
+  }
+</script>
 </html>
